@@ -17,10 +17,10 @@ This project contains:
 - tika_run/EmotiveTone.tam: a compiled IBM text analytics module developed in AQL for the extraction of emotive tones.
 
 Setup steps necessary for using the Jaql module:
-- Import the Eclipse project to the BigInsights development studio
-- Export the Java project as tika-jaql.jar to tika/lib/ (if no changes have been made, this step is not necessary)
-- Copy the tika (module) folder to $JAQL_HOME/modules on your cluster
-- Go to the tika_run directory and upload the reviews to hdfs `hadoop fs -put tika_run/data /tmp/`
+- Import the Eclipse project to the BigInsights development studio.
+- Export the Java project as tika-jaql.jar (using v1.6 NOT v1.7) to tika/lib/ -- if no changes have been made, this step is not necessary.
+- Copy the tika (module) folder to $JAQL_HOME/modules on your cluster.
+- Go to the tika_run directory and upload the reviews to hdfs. `hadoop fs -put tika_run/data /tmp/`
 - run the Jaql scripts through the jaqlshell,
 $JAQL_HOME/bin/jaqlshell -b tika-jaql_Load.jaql
 $JAQL_HOME/bin/jaqlshell -b tika-jaql_Transform.jaql
