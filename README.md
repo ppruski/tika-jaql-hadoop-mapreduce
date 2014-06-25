@@ -10,11 +10,11 @@ An article about 'Processing and Content Analysis of Various Document Types usin
 
 
 This project contains:
-• src: the source folder with the Java classes needed for the Jaql module.
-• tika: the module folder for Jaql.
-• tika_run: a set of sample Jaql script files for common tasks like loading, transforming, and text analytics.
-• tika_run/data/CameraReviews: a set of sample demo word (.doc) files with simple camera reviews.
-• tika_run/EmotiveTone.tam: a compiled IBM text analytics module developed in AQL for the extraction of emotive tones.
+- src: the source folder with the Java classes needed for the Jaql module.
+- tika: the module folder for Jaql.
+- tika_run: a set of sample Jaql script files for common tasks like loading, transforming, and text analytics.
+- tika_run/data/CameraReviews: a set of sample demo word (.doc) files with simple camera reviews.
+- tika_run/EmotiveTone.tam: a compiled IBM text analytics module developed in AQL for the extraction of emotive tones.
 
 Setup steps necessary for using the Jaql module:
 - Import the Eclipse project to the BigInsights development studio
