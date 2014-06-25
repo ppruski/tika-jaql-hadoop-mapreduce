@@ -1,0 +1,9 @@
+import tika(*);
+import systemT;
+read(tikaRead("/tmp/data/CameraReviews"))
+	-> transform { label: $.path, text: $.content }
+	-> transform { label: $.label,  sentiments: 
+	systemT::annotateDocument( $, ["EmotiveTone"], 
+			["file:///home/biadmin/tika_run/"], 
+			tokenizer="multilingual", 
+			outputViews=["EmotiveTone.AllClues"])};

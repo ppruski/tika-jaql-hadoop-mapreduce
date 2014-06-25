@@ -1,0 +1,3 @@
+import tika(*);
+localRead(tikaRead("file:///home/biadmin/tika_run/data/CameraReviews"))
+	-> write(seq("/tmp/output"));

@@ -1,0 +1,9 @@
+#Wed Jun 25 10:53:27 EDT 2014
+srcTextAnalyticsPath=[P]textAnalytics/src
+general.provenance=true
+pagination.isEnabled=true
+tamTextAnalyticsPath=[P]textAnalytics/bin
+searchPath.dataPath=[W]/tika-jaql-hadoop-mapreduce
+UseModularAQL=true
+pagination.numFilesPerPage=50
+langWare.tokenizerChoice=1

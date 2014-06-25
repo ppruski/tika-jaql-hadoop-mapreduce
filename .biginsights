@@ -1,0 +1,3 @@
+#Wed Jun 25 11:21:33 EDT 2014
+com.ibm.biginsights.version=2.1.2.0
+jaql.searchPath=${BIGINSIGHTS_MODULES};${project_loc}/tika;${project_loc}/test

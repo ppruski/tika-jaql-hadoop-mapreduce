@@ -1,0 +1,24 @@
+// JAQL Module
+//----------------
+
+//add all jar files under lib to the classpath
+addClassPath('lib//*');
+/*
+//add all jar files to the classpath
+addRelativeClassPath(getSystemSearchPath(), '/home/biadmin/tika-app-1.5.jar,/home/biadmin/tika-jaql.jar');
+*/
+
+//creating the function
+tikaRead = fn  (
+		 location 	: string,
+		 inoptions	: {*}? = null,
+		 outoptions	: {*}? = null
+		)
+{
+  location,
+  "inoptions": {
+   	"adapter": "com.ibm.jaql.io.hadoop.DefaultHadoopInputAdapter",
+   	"format": "com.ibm.imte.tika.jaql.TikaJaqlInputFormat",
+   	"configurator": "com.ibm.jaql.io.hadoop.FileInputConfigurator"
+  }
+};
