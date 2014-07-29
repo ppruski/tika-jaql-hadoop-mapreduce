@@ -6,7 +6,7 @@ Apache Tika integration with Jaql using MapReduce for Hadoop
 
 This project helps to get over the inefficiency of processing multiple small files in Hadoop using Jaql. Moreover, it allows for processing and analysis of binary documents in Hadoop using Apache Tika by integrating it in Jaql which will in turn spawn a MapReduce job.
 
-An article about 'Processing and Content Analysis of Various Document Types using MapReduce and IBM BigInsights' is currently in publishing and comming soon. Link will be available shortly will full descriptions and usage of the code.
+An article about 'Processing and Content Analysis of Various Document Types using MapReduce and IBM BigInsights' is currently published here: http://www.ibm.com/developerworks/library/ba-mapreduce-biginsights-analysis/ with full descriptions and usage of the code.
 
 
 This project contains:
